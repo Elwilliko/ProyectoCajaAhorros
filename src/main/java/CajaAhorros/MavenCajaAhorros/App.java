@@ -1,5 +1,7 @@
 package CajaAhorros.MavenCajaAhorros;
 
+import controlador.Conexion;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Conexion con = new Conexion();
+        System.out.println(con);
     }
 }
