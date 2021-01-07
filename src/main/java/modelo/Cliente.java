@@ -3,6 +3,8 @@ package modelo;
 public class Cliente extends Persona{
 	private int codigo;
 	private String contraseña;
+	
+	
 	/**
 	 * @return the codigo
 	 */
