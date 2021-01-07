@@ -3,7 +3,7 @@ package modelo;
 import java.io.Serializable;
 
 public abstract class Persona implements Serializable {
-
+    //Declaracion de variables
 	private String per_cedula;
 	private String per_nombre;
 	private String per_apellido;
