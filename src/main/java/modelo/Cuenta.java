@@ -36,4 +36,14 @@ public class Cuenta {
     public void setCuenta_saldo(double cuenta_saldo) {
         this.cuenta_saldo = cuenta_saldo;
     }
+    //toString
+
+    @Override
+    public String toString() {
+        return "Cuenta{" +
+                "cuenta_id=" + cuenta_id +
+                ", cuenta_numero=" + cuenta_numero +
+                ", cuenta_saldo=" + cuenta_saldo +
+                '}';
+    }
 }
