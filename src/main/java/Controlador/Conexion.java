@@ -1,4 +1,4 @@
-package controlador;
+package Controlador;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ public class Conexion {
     public Connection getConnection(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/ahorros","root","Patito.123");
+            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/ahorros","root","root");
             System.out.println("Conexion Exitosa:");
         } catch (ClassNotFoundException e) {
 			System.out.println("Error al cargar el Driver");
