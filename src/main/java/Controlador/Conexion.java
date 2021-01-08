@@ -8,7 +8,7 @@ public class Conexion {
     public Conexion(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/ahorros","root","Patito.123");
+            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/ahorros","root","root");
             System.out.println("Conexion Exitosa:");
         } catch (Exception e) {
             System.err.println("Error:" +e);
