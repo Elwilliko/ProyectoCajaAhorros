@@ -1,6 +1,6 @@
 package CajaAhorros.MavenCajaAhorros;
 
-import controlador.Conexion;
+import Controlador.Conexion;
 
 /**
  * Hello world!
