@@ -10,7 +10,7 @@ public class Conexion {
         try {
             Class.forName("com.mysql.jdbc.Driver");
 
-            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/cahorros","root","Patito.123");
+            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/cahorros","root","root");
 
             System.out.println("Conexion Exitosa:");
         } catch (ClassNotFoundException e) {

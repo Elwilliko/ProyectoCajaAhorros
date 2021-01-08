@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/TestJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorHorario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/TestHorario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MavenCajaAhorros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MavenCajaAhorros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/CajaAhorros/MavenCajaAhorros/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controlador/ClienteCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controlador/ClienteCRUD.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +48,103 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.20.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.13.1.jar" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CajaAhorros.MavenCajaAhorros.App" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestHorario.CrearHorario">
+    <configuration name="TestBanco.ListarBancos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenCajaAhorros" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CajaAhorros.MavenCajaAhorros.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestBanco" />
+      <option name="METHOD_NAME" value="ListarBancos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHorario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenCajaAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestHorario" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHorario.CrearHorario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenCajaAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestHorario" />
+      <option name="METHOD_NAME" value="CrearHorario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHorario.ListarBancos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenCajaAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestHorario" />
+      <option name="METHOD_NAME" value="ListarBancos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHorario.listarhorario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenCajaAhorros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestHorario" />
+      <option name="METHOD_NAME" value="listarhorario" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestHorario.CrearHorario" />
+        <item itemvalue="JUnit.TestBanco.ListarBancos" />
+        <item itemvalue="JUnit.TestHorario" />
+        <item itemvalue="JUnit.TestHorario.ListarBancos" />
+        <item itemvalue="JUnit.TestHorario.listarhorario" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +159,10 @@
       <workItem from="1609987434399" duration="662000" />
       <workItem from="1609995006052" duration="436000" />
       <workItem from="1610073814320" duration="1199000" />
-      <workItem from="1610112467880" duration="3853000" />
+      <workItem from="1610112467880" duration="4308000" />
+      <workItem from="1610136454719" duration="1426000" />
+      <workItem from="1610138144653" duration="42000" />
+      <workItem from="1610138219535" duration="10627000" />
     </task>
     <servers />
   </component>
