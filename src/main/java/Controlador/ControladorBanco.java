@@ -54,6 +54,45 @@ public class ControladorBanco {
         }
     }
 
+    public void actualizarBanco(String banco_Ubicacion){
+        //Conexion y Query para el Select
+        Conexion conexion = new Conexion();
+        conexion.getConnection();
+
+        try{
+            String query = " UPDATE banco set Banco_ubicacion=? WHERE banco_id=? ";
+            PreparedStatement psBanco=conexion.con.prepareStatement(query);
+            psBanco.setString(1,banco_Ubicacion);
+            psBanco.setInt(2,2);
+
+            psBanco.executeUpdate();
+            psBanco.close();
+
+            System.out.println("Datos Actualizados Correctamente .");
+        }catch (SQLException e){
+            System.out.println("Error!, No se encuentran datos registrados"+ e);
+        }
+    }
+
+    public void eliminarBanco(int banco_id){
+        //Conexion y Query para el Select
+        Conexion conexion = new Conexion();
+        conexion.getConnection();
+
+        try{
+            String query = " DELETE FROM banco WHERE banco_id=? ";
+            PreparedStatement psBanco=conexion.con.prepareStatement(query);
+            psBanco.setInt(1,banco_id);
+            psBanco.executeUpdate();
+            psBanco.close();
+
+            System.out.println("Datos Eliminados Correctamente .");
+        }catch (SQLException e){
+            System.out.println("Error!, No se encuentran datos registrados"+ e);
+        }
+
+    }
+
     public String listarBancoTest(){
         //Conexion y Query para el Select
         Conexion conexion = new Conexion();
