@@ -1,4 +1,4 @@
-package controlador;
+package Controlador;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
