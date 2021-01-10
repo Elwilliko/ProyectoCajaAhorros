@@ -1,4 +1,4 @@
-package Controlador;
+package controlador;
 import modelo.Horario;
 
 import java.sql.PreparedStatement;
