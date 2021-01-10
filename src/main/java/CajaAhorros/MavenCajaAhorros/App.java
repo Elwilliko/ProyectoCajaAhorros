@@ -13,7 +13,6 @@ import modelo.Horario;
 public class App 
 {
     public static void main( String[] args ) {
-
     	//Conexion con = new Conexion();
     	//con.getConnection();
     	//Instancia de la clase Horario
@@ -32,10 +31,11 @@ public class App
         String correoB="Pichincha.com";
         //cb.CrearBanco(nombreB,ubicacionB,telefonoB,correoB);
         cb.listarBanco();
-
-
-
-
-
+        //Actualizacion de banco
+        String ubicacionN="Quito";
+        cb.actualizarBanco(ubicacionN);
+        //Eliminacion de banco
+        int bancoEliminar=2;
+        //cb.eliminarBanco(bancoEliminar);
     }
 }
