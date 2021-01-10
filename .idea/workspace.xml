@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
-    </list>
+    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +144,7 @@
       <workItem from="1610112467880" duration="4308000" />
       <workItem from="1610136454719" duration="1426000" />
       <workItem from="1610138144653" duration="42000" />
-      <workItem from="1610138219535" duration="13646000" />
+      <workItem from="1610138219535" duration="13841000" />
     </task>
     <servers />
   </component>
