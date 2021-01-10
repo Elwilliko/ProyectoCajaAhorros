@@ -1,8 +1,10 @@
 package Test;
-import controlador.ControladorBanco;
-import controlador.ControladorHorario;
 import modelo.Horario;
 import org.junit.Test;
+
+import Controlador.ControladorBanco;
+import Controlador.ControladorHorario;
+
 import static org.junit.Assert.assertEquals;
 public class TestHorario {
 
