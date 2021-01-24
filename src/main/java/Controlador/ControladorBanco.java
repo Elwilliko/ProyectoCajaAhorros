@@ -1,9 +1,13 @@
 package Controlador;
 
+import modelo.Banco;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ControladorBanco {
     public void CrearBanco(String banco_nombre,String banco_ubicacion,String banco_Telefono,String banco_correo){
@@ -116,5 +120,52 @@ public class ControladorBanco {
             System.out.println("Error!, No se encuentran datos registrados"+ e);
         }
         return "Correcto";
+    }
+
+    public List<String> listarNombreBancos(){
+        //Conexion y Query para el Select
+        Conexion conexion = new Conexion();
+        conexion.getConnection();
+        ArrayList<String> bancos = new ArrayList<String>();
+
+        try{
+            String query = " SELECT * FROM banco ";
+            Statement select = conexion.con.createStatement();
+            ResultSet resultSet=select.executeQuery(query);
+
+            while (resultSet.next()) {
+                bancos.add(resultSet.getString(
+                        "banco_nombre"));
+            }
+            resultSet.close();
+            select.close();
+
+        }catch (SQLException e){
+            System.out.println("Error!, No se encuentran datos registrados"+ e);
+        }
+        return bancos;
+    }
+
+    public int BucarIdBanco(String nombre) {
+        //Conexion y Query para el Select
+        Conexion conexion = new Conexion();
+        conexion.getConnection();
+        Banco banco= new Banco();
+        ArrayList<String> bancoxNombre = new ArrayList<String>();
+        int id=0;
+        try{
+            String query = " SELECT * FROM banco where banco_nombre='"+nombre+"'";
+            Statement select = conexion.con.createStatement();
+            ResultSet resultSet=select.executeQuery(query);
+            while (resultSet.next()) {
+                System.out.println(id=resultSet.getInt("banco_id"));
+            }
+
+            select.close();
+            select.close();
+        }catch (SQLException e){
+            System.out.println("Error!, No se encuentran datos registrados"+ e);
+        }
+        return id;
     }
 }
