@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorCuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorEmepleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
-    </list>
+    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +42,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Vista" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,7 +57,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CajaAhorros.MavenCajaAhorros.App" />
       <module name="MavenCajaAhorros" />
       <extension name="coverage">
@@ -83,6 +66,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,7 +146,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestHorario.CrearHorario" />
         <item itemvalue="JUnit.TestBanco.ListarBancos" />
         <item itemvalue="JUnit.TestHorario" />
@@ -180,8 +173,12 @@
       <workItem from="1611418889470" duration="13049000" />
       <workItem from="1611457080836" duration="594000" />
       <workItem from="1611505122625" duration="11761000" />
+      <workItem from="1611530415878" duration="647000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
