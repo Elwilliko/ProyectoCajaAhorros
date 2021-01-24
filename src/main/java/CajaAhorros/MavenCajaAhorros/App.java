@@ -1,5 +1,6 @@
 package CajaAhorros.MavenCajaAhorros;
 
+import Controlador.ClienteCRUD;
 import Controlador.Conexion;
 import Controlador.ControladorBanco;
 import Controlador.ControladorHorario;
@@ -37,5 +38,17 @@ public class App
         //Eliminacion de banco
         int bancoEliminar=2;
         //cb.eliminarBanco(bancoEliminar);
+        
+        ClienteCRUD cli = new ClienteCRUD();
+        String cedula = "0105820138";
+        String nombre = "Juan";
+        String apellido = "Ramirez";
+        String direccion = "Calle 1.10 y Sin npmbre";
+        String telefono = "2053421";
+        String email = "jramirez@gmail.com";
+        String edad = "24";
+        //, String cli_contrasena, int Banco_banco_id, String Cuenta_cuenta_id, String Persona_per_cedula, String Persona_Empleado_empleado_id
+     
+        cli.crearCliente(cedula, nombre, apellido, direccion, telefono, email, edad);
     }
 }
