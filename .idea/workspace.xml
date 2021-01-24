@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="" />
+    <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorCuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorEmepleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +38,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1miroJs0uSyhSItnZFYakIgIvNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,14 +58,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.13.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Vista" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\src\main\java\Vista" />
+      <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\ArchivoBD" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\lib" />
     </key>
   </component>
@@ -145,6 +175,11 @@
       <workItem from="1610136454719" duration="1426000" />
       <workItem from="1610138144653" duration="42000" />
       <workItem from="1610138219535" duration="13841000" />
+      <workItem from="1610309242440" duration="3989000" />
+      <workItem from="1610367493146" duration="597000" />
+      <workItem from="1611418889470" duration="13049000" />
+      <workItem from="1611457080836" duration="594000" />
+      <workItem from="1611505122625" duration="11761000" />
     </task>
     <servers />
   </component>
