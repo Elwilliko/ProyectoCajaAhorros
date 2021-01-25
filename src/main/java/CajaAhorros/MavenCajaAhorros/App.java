@@ -6,6 +6,7 @@ import Controlador.ControladorHorario;
 import Vista.ListarBancos;
 import Vista.VistaBanco;
 import Vista.VistaEmpleados;
+import Vista.VistaHorario;
 import modelo.Banco;
 import modelo.Horario;
 
@@ -25,6 +26,8 @@ public class App
         //ve.CargarBancos();
         ControladorBanco cb= new ControladorBanco();
         //cb.BucarIdBanco("Guayaquil");
+        VistaHorario vh = new VistaHorario();
+        vh.setVisible(true);
 
     }
 }

@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorCuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorEmepleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/ListarBancos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Icons/Horario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/Login.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaHorario.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +52,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Vista" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Icons" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\src\main\java\Icons" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\src\main\java\Vista" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\ArchivoBD" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\lib" />
@@ -179,7 +174,7 @@
       <workItem from="1610367493146" duration="597000" />
       <workItem from="1611418889470" duration="13049000" />
       <workItem from="1611457080836" duration="594000" />
-      <workItem from="1611505122625" duration="11761000" />
+      <workItem from="1611505122625" duration="15597000" />
     </task>
     <servers />
   </component>
