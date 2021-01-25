@@ -5,44 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea2f5842-3049-4253-b845-6143cb8a0b00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Icons/Horario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/Login.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaHorario.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaHorario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorEmepleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorEmepleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorHorario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorHorario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/CajaAhorros/MavenCajaAhorros/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/CajaAhorros/MavenCajaAhorros/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/TestHorario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/TestHorario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/ListarBancos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/ListarBancos$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/ListarBancos$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/ListarBancos$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/ListarBancos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/ListarBancos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaBanco$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaBanco$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Banco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Creditos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Creditos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Horario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Horario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/LibroDiario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/LibroDiario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/PlanCuentas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/PlanCuentas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Recibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Recibo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Transaccion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Transaccion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/Conexion.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +52,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Icons" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -90,13 +62,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\src\main\java\Icons" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\src\main\java\Vista" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\ArchivoBD" />
       <recent name="C:\Users\MSI PC\Documents\GitHub\ProyectoCajaAhorros\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CajaAhorros.MavenCajaAhorros.App" />
       <module name="MavenCajaAhorros" />
       <extension name="coverage">
@@ -105,17 +78,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestHorario.CrearHorario" />
         <item itemvalue="JUnit.TestBanco.ListarBancos" />
         <item itemvalue="JUnit.TestHorario" />
@@ -211,13 +174,9 @@
       <workItem from="1610367493146" duration="597000" />
       <workItem from="1611418889470" duration="13049000" />
       <workItem from="1611457080836" duration="594000" />
-      <workItem from="1611505122625" duration="11761000" />
-      <workItem from="1611530415878" duration="13574000" />
+      <workItem from="1611505122625" duration="15597000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
