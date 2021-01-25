@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CajaAhorros/MavenCajaAhorros/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ClienteCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controlador/ControladorBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
@@ -211,7 +212,7 @@
       <workItem from="1611418889470" duration="13049000" />
       <workItem from="1611457080836" duration="594000" />
       <workItem from="1611505122625" duration="11761000" />
-      <workItem from="1611530415878" duration="12064000" />
+      <workItem from="1611530415878" duration="13109000" />
     </task>
     <servers />
   </component>

@@ -12,23 +12,6 @@ import modelo.Cliente;
 public class ClienteCRUD {
 
 	private ArrayList<Cliente> listadoClientes;
-	
-	
-	/**
-	 * @return the listadoClientes
-	 */
-	public ArrayList<Cliente> getListadoClientes() {
-		return listadoClientes;
-	}
-
-
-	/**
-	 * @param listadoClientes the listadoClientes to set
-	 */
-	public void setListadoClientes(Cliente listadoClientes) {
-		this.listadoClientes.add(listadoClientes);
-	}
-
 
 
     public String getCedula() {
@@ -117,6 +100,28 @@ public class ClienteCRUD {
         }
     }
 		
-	
+	public void listarClientes(){
+        //Conexion y Query para el Select
+        Conexion conexion = new Conexion();
+        conexion.getConnection();
+
+        try{
+            String query = " SELECT * FROM cliente, persona WHERE persona_per_cedula = persona.per_cedula";
+            Statement select = conexion.con.createStatement();
+            ResultSet resultSet = select.executeQuery(query);
+
+            while (resultSet.next()) {
+                System.out.println(" cedula: "+resultSet.getString("persona_per_cedula") + " | Nombre Completo: " + resultSet.getString("per_nombre")
+                        + " " + resultSet.getString("per_apellido") + "| Direccio: " + resultSet.getString("per_direccion")
+                        +" | Telefono: "+ resultSet.getString("per_telefono")+ " | Correo: "+resultSet.getString("per_correo")
+                        + "| Edad: "+ resultSet.getString("per_edad"));
+            }
+            resultSet.close();
+            select.close();
+
+        }catch (SQLException e){
+            System.out.println("Error!, No se encuentran datos del cliente registrados"+ e);
+        }
+    }
 
 }

@@ -31,7 +31,7 @@ public class ControladorBanco {
             psBanco.close();
             System.out.println("Datos Registrados Correctamente.");
         }catch (SQLException e){
-            System.out.println("Error!, Los datos no se registraron");
+            System.out.println("Error!, Los datos no se registraron" + e);
         }
     }
     public void listarBanco(){
