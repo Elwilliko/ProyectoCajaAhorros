@@ -2,6 +2,7 @@ package Vista;
 
 import Controlador.ClienteCRUD;
 import Controlador.ControladorBanco;
+import Controlador.ControladorCuenta;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -37,6 +38,7 @@ public class VistaCliente extends JFrame{
         this.setContentPane(panelCliente);
         this.setSize(600,600);
         this.pack();
+        CargarDatos();
         btnRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -54,23 +56,37 @@ public class VistaCliente extends JFrame{
                 ControladorBanco cb= new ControladorBanco();
                 int idBanco = cb.BucarIdBanco(nombreB);
                 ClienteCRUD cli = new ClienteCRUD();
-                int idCuenta = cli.getCuenta(cuentaC);
+                ControladorCuenta count = new ControladorCuenta();
+                int idCuenta = count.getCuenta(cuentaC);
                 cli.crearCliente(cedula,nombre,apellido, direccion,telefono, correo, edad,contrasena,idBanco, idCuenta);
 
             }
         });
     }
 
-    public void CargarBancos(){
+    public void CargarDatos(){
+        // Muestra en comboBox los bancos
         ControladorBanco cb = new ControladorBanco();
         ArrayList<String> bancos = new ArrayList<String>();
         bancos= (ArrayList<String>) cb.listarNombreBancos();
 
         System.out.println("Se imprime los bancos desde la clase empleados");
         for (int i = 0; i <bancos.size() ; i++) {
-            //System.out.println(bancos.get(i));
+            System.out.println(bancos.get(i));
             cmbBanco.addItem(bancos.get(i));
 
         }
+
+        // Muestra en comboBox las cuentas
+        ControladorCuenta count = new ControladorCuenta();
+        ArrayList<String> cuentas = new ArrayList<String>();
+        cuentas = (ArrayList<String>) count.listarCuentas();
+
+        System.out.println("Se imprime las cuentas desde la clase empleados");
+        for (int i = 0; i <cuentas.size() ; i++) {
+            System.out.println(cuentas.get(i));
+            cmbCuenta.addItem(cuentas.get(i));
+        }
+
     }
 }

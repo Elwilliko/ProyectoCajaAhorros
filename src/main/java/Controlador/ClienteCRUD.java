@@ -37,27 +37,6 @@ public class ClienteCRUD {
     }
 
 
-    public int getCuenta(String num_cuenta) {
-        //Conexion y Query para el Select
-        Conexion conexion = new Conexion();
-        conexion.getConnection();
-
-        int id = 0;
-        try{
-            String query = "SELECT * FROM cuenta WHERE cuenta_numero ='"+num_cuenta+"'";
-            Statement select = conexion.con.createStatement();
-            ResultSet resultSet=select.executeQuery(query);
-            while (resultSet.next()) {
-                System.out.println(id = resultSet.getInt("cuenta_id"));
-            }
-
-            select.close();
-            select.close();
-        }catch (SQLException e){
-            System.out.println("Error!, No se encuentran datos registrados"+ e);
-        }
-        return id;
-    }
 
 
 	public void crearCliente(String cedula, String nombre, String apellido, String direccion, String telefono, String correo, String edad, String contrasena, int banco_id, int cuenta_id){
@@ -90,7 +69,8 @@ public class ClienteCRUD {
             psCliente.setInt(4, cuenta_id);
             psCliente.setString(5, cedula);
 
-
+            psPersona.executeUpdate();
+            psPersona.close();
             psCliente.executeUpdate();
             psCliente.close();
             System.out.println("Datos de cliente Registrados Correctamente.");
@@ -99,14 +79,15 @@ public class ClienteCRUD {
             System.err.println(e);
         }
     }
-		
+
+
 	public void listarClientes(){
         //Conexion y Query para el Select
         Conexion conexion = new Conexion();
         conexion.getConnection();
 
         try{
-            String query = " SELECT * FROM cliente, persona WHERE persona_per_cedula = persona.per_cedula";
+            String query = " SELECT * FROM cliente, persona WHERE persona_per_cedula = persona.per_cedula GROUP BY cli_id";
             Statement select = conexion.con.createStatement();
             ResultSet resultSet = select.executeQuery(query);
 
