@@ -14,6 +14,14 @@ public class VistaEmpleados extends JFrame {
     private JComboBox cmbHorarioE;
     private JButton btnRegistrar;
     private JPanel panelEmpleados;
+    private JTextField txtApellido;
+    private JTextField txtDireccion;
+    private JTextField txtTelefono;
+    private JTextField txtCorreo;
+    private JTextField txtEdad;
+    private JTextField txtCedula;
+    private JLabel lblCedula;
+    private JTextField txtCargo;
 
     //Constructor
     public VistaEmpleados(){
@@ -25,14 +33,21 @@ public class VistaEmpleados extends JFrame {
         btnRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                String cedula = txtCedula.getText();
                 String nombreE=txtNombreEmpleado.getText();
+                String apellido = txtApellido.getText();
+                String direccion = txtDireccion.getText();
+                String telefono = txtTelefono.getText();
+                String correo = txtCorreo.getText();
+                int edad = Integer.parseInt(txtEdad.getText());
+                String cargo = txtCargo.getText();
                 String nombreB= (String) cmbBancoE.getSelectedItem();
                 ControladorBanco cb= new ControladorBanco();
                 int idBnaco=cb.BucarIdBanco(nombreB);
                 System.out.println(idBnaco);
                 //Se procede a insertar en la BD
                 ControladorEmepleado ce = new ControladorEmepleado();
-                ce.CrearEmpleado(nombreE,idBnaco);
+                ce.CrearEmpleado(cedula,nombreE, apellido, direccion, telefono, correo, edad, cargo, idBnaco);
 
                 JOptionPane.showMessageDialog(null,"Empleado creado Correctamente");
                 txtNombreEmpleado.setText("");

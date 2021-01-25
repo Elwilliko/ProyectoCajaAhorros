@@ -7,20 +7,36 @@ import java.sql.Statement;
 
 public class ControladorEmepleado {
 
-    public void CrearEmpleado(String empleado_cargo,int Banco_id){
+    public void CrearEmpleado(String cedula, String nombre, String apellido, String direccion, String telefono, String correo, int edad, String empleado_cargo,int Banco_id){
         Conexion conexion = new Conexion();
         conexion.getConnection();
 
-        String query="INSERT INTO empleado(empleado_id,empleado_cargo,Banco_banco_id,Banco_Horario_horario_id)"+
-                "VALUES (?, ?, ?, ?)";
+        String query_persona = "INSERT INTO persona (per_cedula, per_nombre, per_apellido, per_direccion,"
+                + "per_telefono, per_correo, per_edad) VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+        String query = "INSERT INTO empleado(empleado_id, empleado_cargo, Banco_banco_id, Banco_Horario_horario_id, persona_per_cedula)"+
+                "VALUES (?, ?, ?, ?, ?)";
         try{
+            PreparedStatement psPersona = conexion.con.prepareStatement(query_persona);
             PreparedStatement psEmpleado=conexion.con.prepareStatement(query);
+
+            psPersona.setString(1, cedula);
+            psPersona.setString(2,nombre);
+            psPersona.setString(3,apellido);
+            psPersona.setString(4,direccion);
+            psPersona.setString(5,telefono);
+            psPersona.setString(6,correo);
+            psPersona.setInt(7, edad);
 
             psEmpleado.setInt(1,0);
             psEmpleado.setString(2,empleado_cargo);
             psEmpleado.setInt(3,Banco_id);
             psEmpleado.setInt(4,1);
-;
+            psEmpleado.setString(5,cedula);
+
+
+            psPersona.executeUpdate();
+            psPersona.close();
 
             psEmpleado.executeUpdate();
             psEmpleado.close();

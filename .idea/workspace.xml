@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vista/VistaEmpleados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CajaAhorros/MavenCajaAhorros/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controlador/ControladorBanco.class" afterDir="false" />
@@ -31,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaBanco$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaBanco$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaBanco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaCliente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaCliente$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaCliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaEmpleados.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vista/VistaHorario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vista/VistaHorario$1.class" afterDir="false" />

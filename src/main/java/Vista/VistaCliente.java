@@ -48,7 +48,7 @@ public class VistaCliente extends JFrame{
                 String direccion = txtDirección.getText();
                 String telefono = txtTelefono.getText();
                 String correo = txtCorreo.getText();
-                String edad = txtEdad.getText();
+                int edad = Integer.parseInt(txtEdad.getText());
                 String nombreB = (String) cmbBanco.getSelectedItem();
                 String cuentaC = (String) cmbCuenta.getSelectedItem();
                 String contrasena = txtContrasena.getText();

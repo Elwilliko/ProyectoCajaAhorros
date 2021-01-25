@@ -39,7 +39,7 @@ public class ClienteCRUD {
 
 
 
-	public void crearCliente(String cedula, String nombre, String apellido, String direccion, String telefono, String correo, String edad, String contrasena, int banco_id, int cuenta_id){
+	public void crearCliente(String cedula, String nombre, String apellido, String direccion, String telefono, String correo, int edad, String contrasena, int banco_id, int cuenta_id){
         //Conexion y Query para el insert
         Conexion conexion = new Conexion();
         conexion.getConnection();
@@ -61,7 +61,7 @@ public class ClienteCRUD {
             psPersona.setString(4,direccion);
             psPersona.setString(5,telefono);
             psPersona.setString(6,correo);
-            psPersona.setString(7,edad);
+            psPersona.setInt(7,edad);
 
             psCliente.setInt(1, 0);
             psCliente.setString(2, contrasena);
